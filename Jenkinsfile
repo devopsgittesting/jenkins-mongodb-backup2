@@ -8,13 +8,9 @@ pipeline {
 			sh 'echo "Today is:" date'
 			echo '*** Executing remote commands ***'
 	 		sh '''#!/bin/bash
-				date
+			
 				ssh root@192.168.0.108 >> ENDSSH
-	
-			    	date
-			    	cd /tmp
-			    	pwd
-ENDSSH
+			date    
 '''
 
                 }
