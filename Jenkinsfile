@@ -15,7 +15,7 @@ pipeline {
 			    	cd /tmp
 			    	pwd
 ENDSSH
-'''
+
 
                 }
             }
