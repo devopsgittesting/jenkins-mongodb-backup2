@@ -10,12 +10,12 @@ pipeline {
 	 		sh '''#!/bin/bash
 				date
 				ssh root@192.168.0.108 >> ENDSSH
-				j
+	
 			    	date
 			    	cd /tmp
 			    	pwd
 ENDSSH
-
+'''
 
                 }
             }
